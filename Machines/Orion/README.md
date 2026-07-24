@@ -131,3 +131,5 @@ Orion is a straightforward machine that focuses on:
 - Linux privilege escalation
 
 Overall, it's a good beginner-friendly machine that reinforces the importance of proper enumeration and checking software versions for publicly available vulnerabilities.
+
+0xchnk
