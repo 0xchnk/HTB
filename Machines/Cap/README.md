@@ -1,7 +1,10 @@
-> **Platform:** Hack The Box 
-> **Difficulty:** Easy 
-> **Operating System:** Linux ---
+# Cap
 
+> **Platform:** Hack The Box  
+> **Difficulty:** Easy  
+> **Operating System:** Linux
+
+---
 
 ## Initial Enumeration
 
