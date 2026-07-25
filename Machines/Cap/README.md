@@ -5,7 +5,6 @@
 > **Operating System:** Linux
 
 ---
-
 ## Initial Enumeration
 
 We start with basic enumeration:
