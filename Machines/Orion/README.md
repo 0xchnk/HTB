@@ -1,6 +1,5 @@
 # Orion
 
-> **Platform:** Hack The Box  
 > **Difficulty:** Easy  
 > **Operating System:** Linux
 
