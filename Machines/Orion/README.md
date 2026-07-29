@@ -5,7 +5,7 @@
 
 ---
 
-## Initial Enumeration
+## nitial Enumeration
 
 We start with some basic enumeration:
 
