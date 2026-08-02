@@ -1,7 +1,9 @@
 # Kobold
 
----
+> **Difficulty:** Easy  
+> **Operating System:** Linux
 
+---
 ## Initial Enumeration
 
 As always, we start with some basic enumeration.
