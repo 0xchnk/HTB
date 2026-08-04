@@ -21,9 +21,7 @@ The scan reveals two interesting web services running on **ports 80 and 443**, a
 Heading over to the website, two things immediately stand out:
 
 1. The application revolves around **AI agents** and monitoring.
-    
 2. We discover what appears to be a valid username that might become useful later:
-    
 
 > **[admin@kobold.htb](mailto:admin@kobold.htb)**
 
