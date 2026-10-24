@@ -10,7 +10,7 @@
 As usual, I started with basic enumeration to identify the target's exposed services and gather information about the environment.
 
 ```bash
-nmap -sVC 10.129.65.112
+nmap -sVC -Pn 10.129.65.112
 ```
 
 ![](images/Pasted%20image%2020261022084916.png)
