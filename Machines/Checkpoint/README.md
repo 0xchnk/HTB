@@ -11,12 +11,15 @@ As usual, I started with basic enumeration to identify the target's exposed serv
 
 ```bash
 nmap -sVC 10.129.65.112
-
-echo "10.129.65.112 checkpoint.htb dc01.checkpoint.htb dc01" | sudo tee -a /etc/hosts
-
 ```
 
 ![](images/Pasted%20image%2020261022084916.png)
+
+Now we add the domain + IP to `/etc/hosts`
+
+```bash
+echo "10.129.65.112 checkpoint.htb dc01.checkpoint.htb dc01" | sudo tee -a /etc/hosts
+```
 
 Before proceeding with Active Directory enumeration, I synchronized my machine's clock with the domain controller. Time synchronization is particularly important when working with Kerberos, since significant clock differences between the client and the domain controller can cause authentication failures.
 
